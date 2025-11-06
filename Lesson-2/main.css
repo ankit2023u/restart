@@ -1,0 +1,8 @@
+html{
+    font-size: 22px;
+}
+/* This is making it as dark mode */
+body{
+    background-color: #0d0b0b;
+    color: whitesmoke;
+}
