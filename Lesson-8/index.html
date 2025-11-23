@@ -1,0 +1,106 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="index.css">
+    <title>Table Toppers</title>
+</head>
+<body>
+    <header>
+        <h1>This is about HTML tables</h1>
+    </header>
+    <main>
+        <article id="tables">
+            <h2>My Routine</h2>
+            <!-- Table Element -->
+            <table>
+                <!-- Tell what is the table about -->
+                <caption>My daily schedule</caption>
+
+                <!-- Table header -->
+                <thead>
+                    <tr>
+                        <!-- th stand is table heading -->
+                        <th>&nbsp;</th>
+                        <th scope="col"> Time </th>
+                        <th scope="col"> Routine </th>
+                    </tr>
+                </thead>
+
+                <!-- Table body -->
+                <tbody>
+                    <!-- tr stands for table row -->
+                    <tr>
+                        <th scope="row">Morning</th>
+                        <!-- td stands for table data -->
+                        <td>
+                            <time datetime="5:00">5am</time>-<time datetime="9:00">9am</time>
+                        </td>
+                        <td>Morning Routine</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Morning</th>
+                        <td>
+                            <time datetime="5:00">9am</time>-<time datetime="13:30">1:30pm</time>
+                        </td>
+                        <td>Study Session - 1</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Meals</th>
+                        <td>
+                            <time datetime="13:30">1:30pm</time>-<time datetime="14:00">2pm</time>
+                        </td>
+                        <td>Lunch Time</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Afternoon | Evening</th>
+                        <td>
+                            <time datetime="14:00">2pm</time>-<time datetime="21:00">9pm</time>
+                        </td>
+                        <td>Study Session - 2</td>
+                    </tr>
+                     <tr>
+                        <th scope="row">Meals</th>
+                        <td>
+                            <time datetime="21:00">9pm</time>-<time datetime="21:30">9:30pm</time>
+                        </td>
+                        <td>Dinner Time</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Evening</th>
+                        <td>
+                            <time datetime="21:30">9:30pm</time>-<time datetime="22:00">10pm</time>
+                        </td>
+                        <td>Night Routine</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Night</th>
+                        <td>
+                            <time datetime="22:00">10pm</time>-<time datetime="5:00">5am</time>
+                        </td>
+                        <td>Sleep Time</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Weekends</th>
+                        <td rowspan="2">On Weekends</td>
+                        <td>Relax</td>
+                    </tr>
+                    <tr>
+                        <th scope="row">Weekends</th>
+                        <td>Enjoy</td>
+                    </tr>
+                </tbody>
+
+                <!-- Table footer -->
+                <tfoot>
+                    <tr>
+                        <td colspan="3" >Completed. I don't do much apart from studing but the morning routine and night routine has lot of small things packed.</td>
+                    </tr>
+                </tfoot>
+    
+            </table>
+        </article>
+    </main>
+</body>
+</html>
